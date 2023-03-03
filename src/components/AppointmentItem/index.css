@@ -1,0 +1,27 @@
+/* Write your CSS here */
+.title {
+  font-family: 'Roboto';
+  color: #171f46;
+  font-weight: 600;
+}
+.date-time {
+  font-family: 'Roboto';
+  color: #b5b7c4;
+}
+.list-item {
+  border: 2px solid #b5b7c4;
+  border-radius: 10px;
+  width: 300px;
+  padding: 10px;
+}
+.each-list-container {
+  margin: 10px;
+}
+.star-button {
+  background-color: transparent;
+  border: none;
+}
+.heading-button {
+  display: flex;
+  justify-content: space-between;
+}

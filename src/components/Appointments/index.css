@@ -1,0 +1,96 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(#fbc7d4, #9796f0);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+.card-container {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  width: 100%;
+}
+.top-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+.heading {
+  color: #171f46;
+  font-family: 'Roboto';
+}
+.form-el {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.label-text {
+  color: #b5b7c4;
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.inputEl {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  border: 2px solid #b5b7c4;
+  outline: none;
+}
+.submit-button {
+  background-color: #8b5cf6;
+  color: #ffffff;
+  font-family: 'Roboto';
+  width: 60px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+}
+.middle-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mini-heading {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.starredButton {
+  color: #9897f0;
+  background-color: transparent;
+  font-family: 'Roboto';
+  width: 90px;
+  border: 2px solid #9796f0;
+  border-radius: 15px;
+  height: 30px;
+  font-weight: 600;
+}
+.starredButtonActive {
+  color: #ffffff;
+  background-color: #9897f0;
+  font-family: 'Roboto';
+  width: 90px;
+  border: 2px solid #9796f0;
+  border-radius: 15px;
+  height: 30px;
+  font-weight: 600;
+}
+.list-container {
+  list-style-type: none;
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: warp;
+}
+
+@media (max-width: 767px) {
+  .img-cont {
+    display: none;
+  }
+}
